@@ -20,9 +20,10 @@ export default function Home() {
           <a href="#work">Work</a>
           <a href="#approach">Approach</a>
           <a href="#pricing">Pricing</a>
+          <a href="#demo">Live demo</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a href="#contact" className="cta">Let’s talk</a>
+        <a href="#demo" className="cta">Live demo</a>
       </header>
 
       <main>
@@ -30,6 +31,10 @@ export default function Home() {
           <p className="eyebrow">Digital-first · Modernization · 2026</p>
           <h1 className="serif">pr0</h1>
           <p>We modernize websites that no longer serve the business behind them.</p>
+          <div style={{marginTop: '2.5rem', display: 'flex', gap: '1.5rem', flexWrap: 'wrap'}}>
+            <a href="#demo" className="btn">View live demo</a>
+            <a href="#contact" className="btn" style={{borderColor: '#444', color: '#ccc'}}>Let’s talk</a>
+          </div>
         </section>
 
         <section>
@@ -109,6 +114,13 @@ export default function Home() {
             </div>
           </div>
           <p style={{marginTop: '2rem', color: '#888', fontSize: '0.9rem'}}>Recurring from €149/month (hosting & maintenance).</p>
+        </section>
+
+        <section id="demo" className="contact" style={{background: '#111', borderTop: 'none'}}>
+          <p className="eyebrow">See it in action</p>
+          <h2 className="serif">Live demo</h2>
+          <p>Experience a modernized site the way your clients will.</p>
+          <a href="https://pr0-website-v2.vercel.app" className="btn" target="_blank" rel="noopener">Open live demo</a>
         </section>
 
         <section id="contact" className="contact">
